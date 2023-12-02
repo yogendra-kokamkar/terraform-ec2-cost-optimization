@@ -2,6 +2,9 @@
 
 This project aims to automate the starting and stopping of EC2 instances based on an Excel sheet stored in an S3 bucket. Terraform is used to define the infrastructure, including Lambda functions, IAM roles, S3 bucket, and CloudWatch Events. The Lambda functions are triggered by AWS CloudWatch Events at scheduled times.
 
+
+![flow_diagram2](https://github.com/yogendra-kokamkar/terraform-ec2-cost-optimization/assets/55878086/9fc6ef38-83c7-403f-ae0b-12ce065d9e84)
+
 ## Table of Contents
 
 - [Overview](#overview)
