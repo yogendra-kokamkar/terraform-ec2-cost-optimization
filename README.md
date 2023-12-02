@@ -1,6 +1,6 @@
-# EC2 Instance Automation
+# Automation for EC2 Instances Cost Optimization using Terraform
 
-This project aims to automate the starting and stopping of EC2 instances based on an Excel sheet stored in an S3 bucket. Lambda functions are utilized, triggered by AWS CloudWatch Events at scheduled times.
+This project aims to automate the starting and stopping of EC2 instances based on an Excel sheet stored in an S3 bucket. Terraform is used to define the infrastructure, including Lambda functions, IAM roles, S3 bucket, and CloudWatch Events. The Lambda functions are triggered by AWS CloudWatch Events at scheduled times.
 
 ## Table of Contents
 
@@ -26,7 +26,8 @@ Before you begin, ensure you have the following:
 
 - AWS account with appropriate permissions
 - Excel sheet with instance IDs saved to a specific format in an S3 bucket
-- AWS CLI or SDK configured for deployment
+- Terraform installed on your local machine
+- AWS CLI configured for Terraform
 
 ## Setup
 
