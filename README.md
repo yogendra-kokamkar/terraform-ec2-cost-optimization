@@ -36,7 +36,7 @@ Before you begin, ensure you have the following:
 
 1. **Prepare Excel Sheet:**
    - Create an Excel sheet listing the instance IDs.
-   - Save the sheet to the designated S3 bucket.
+   - This sheet will be uploaded to a S3 bucket.
 
 2. **IAM Role:**
    - Create an IAM role with the required permissions for Lambda functions.
